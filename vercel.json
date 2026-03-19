@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "outputDirectory": "frontend",
-  "builds": [{ "src": "frontend/autoflow.html", "use": "@vercel/static" }],
-  "routes": [{ "src": "/(.*)", "dest": "/frontend/autoflow.html" }]
+  "builds": [{ "src": "index.html", "use": "@vercel/static" }],
+  "routes": [{ "src": "/(.*)", "dest": "/index.html" }]
 }
